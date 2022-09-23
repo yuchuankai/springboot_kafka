@@ -1,4 +1,4 @@
-package com.chuan.kafuka;
+package com.chuan.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

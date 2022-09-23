@@ -1,6 +1,6 @@
-package com.chuan.kafuka.controller;
+package com.chuan.kafka.controller;
 
-import com.chuan.kafuka.kafuka.KafkaSender;
+import com.chuan.kafka.kafuka.KafkaSender;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

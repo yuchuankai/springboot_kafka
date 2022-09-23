@@ -1,4 +1,4 @@
-package com.chuan.kafuka.entity;
+package com.chuan.kafka.entity;
 
 import lombok.Data;
 

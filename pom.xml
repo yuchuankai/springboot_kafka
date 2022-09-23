@@ -5,7 +5,7 @@
     <groupId>com.chuan</groupId>
     <artifactId>kafuka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kafuka</name>
+    <name>kafka</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -76,7 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.chuan.kafuka.KafukaApplication</mainClass>
+                    <mainClass>com.chuan.kafka.KafkaApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

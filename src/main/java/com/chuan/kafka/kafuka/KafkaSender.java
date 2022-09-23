@@ -1,6 +1,6 @@
-package com.chuan.kafuka.kafuka;
+package com.chuan.kafka.kafuka;
 
-import com.chuan.kafuka.entity.Message;
+import com.chuan.kafka.entity.Message;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.extern.slf4j.Slf4j;
