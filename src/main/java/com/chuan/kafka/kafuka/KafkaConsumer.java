@@ -15,13 +15,16 @@ import java.util.Optional;
 @Component
 @Slf4j
 public class KafkaConsumer {
+    private static Integer i = 0;
     @KafkaListener(topics = {"hello2"})
     public void listen(ConsumerRecord<?, ?> record) {
 
         Optional.ofNullable(record.value())
                 .ifPresent(message -> {
-                    log.info("【+++++++++++++++++ record = {} 】", record);
-                    log.info("【+++++++++++++++++ message = {}】", message);
+                    log.info("record = {}", record);
+                    log.info("message = {}", message);
                 });
+        i++;
+        System.out.println(i);
     }
 }
